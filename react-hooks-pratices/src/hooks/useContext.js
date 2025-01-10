@@ -3,7 +3,7 @@ const useContextHook = () => {
       
     return (
       <div>
-        <h1>UseEffect</h1>
+        <h1>UseContext</h1>
       </div>
     );
 

@@ -3,7 +3,7 @@ const useCallbackHook = () => {
       
     return (
       <div>
-        <h1>UseEffect</h1>
+        <h1>UseCallback</h1>
       </div>
     );
 

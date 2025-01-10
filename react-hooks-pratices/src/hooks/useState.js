@@ -2,10 +2,10 @@ import {useState} from "react";
 
 const useStateHook = () => {
     const [count, setCount] = useState(0); //define count como 0 inicialmente
-      
         const incrementar = () => {
          
-            setCount(count + 1); // Atualiza o valor apenas se for par
+            setCount ((prevState)=> prevState+1)
+
           
         };
       
@@ -18,7 +18,6 @@ const useStateHook = () => {
             <br></br>
             <br></br>
             <br></br>
-            
           </div>
         );
     

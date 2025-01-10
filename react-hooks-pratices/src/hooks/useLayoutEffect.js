@@ -3,7 +3,7 @@ const useLayoutEffectHook = () => {
       
     return (
       <div>
-        <h1>UseEffect</h1>
+        <h1>UseLayoutEffect</h1>
       </div>
     );
 
